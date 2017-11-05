@@ -1,0 +1,36 @@
+/*body {*/
+  /*font: 10px sans-serif;*/
+  /*margin: 0;*/
+/*}*/
+
+/*line {*/
+  /*fill: none;*/
+  /*stroke: #eee;*/
+  /*stroke-width: 1.5px;*/
+/*}*/
+
+body {
+  font: 14px sans-serif;
+  /*shape-rendering: crispEdges;*/
+}
+
+.axis_time line {
+  stroke: gray;
+}
+
+.axis_time .minor line {
+  stroke-opacity: .5;
+}
+
+.grid text {
+  display: none;
+}
+
+.axis line {
+  stroke: #000;
+}
+
+.axis path,
+.grid path {
+  display: none;
+}
